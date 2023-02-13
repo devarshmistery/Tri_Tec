@@ -1,0 +1,150 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block Main_Content %}
+<style>
+    .sizee{
+        height:30px;
+    }
+</style>  
+    <!-- Breadcrumb Begin -->
+    <div class="breadcrumb-option spad set-bg" data-setbg="{% static 'img/breadcrumb-bg.jpg' %}">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcrumb__text">
+                        <h2>Our Sevices</h2>
+                        <div class="breadcrumb__links">
+                            <a href="{% url 'index' %}">Home</a>
+                            <span>Services</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+    <!-- Services Section Begin -->
+    <section class="services-page spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                 
+                    <div class="services__item">
+                        <div class="services__item__icon">
+                            <img class="sizee" src="{% static 'img/icons/si-2.png' %}" alt="">
+                        </div>
+                        <h4>Android app and development</h4>
+                        <p>Android is touted as the right choice for startups and emerging companies. Our Android development services ensure that it is fully capable of supporting established companies and their SME counterparts. We are an android development company that guarantees scalability with expertise in everything related to what is android app development.</p>
+                    </div>
+           
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+           
+
+                    <div class="services__item">
+                        <div class="services__item__icon">
+                            <img src="{% static 'img/icons/si-1.png' %}" alt="">
+                        </div>
+                        <h4>IOT Products</h4>
+                        <p>An IoT-powered product is equipped with multi-purpose sensors that are engineered to perform different actions. Sensors range from position and movement to sound and light. We produce the best outcomes by using our expertise and experience in GPS and sensor technology to create intelligent and smart products.</p>
+                    </div>
+                
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+
+                    <div class="services__item">
+                        <div class="services__item__icon">
+                            <img class="sizee" src="{% static 'img/icons/si-2.png' %}" alt="">
+                        </div>
+                        <h4>UX/UI Design</h4>
+                        <p>Want to build your product with a team that establishes a clear design process, meets deadlines, 
+                            and delivers a spot-on end result? Turn to Intellectsoft’s UI and UX services. 
+                            Our design team is a small design studio within a large software company that will help you build an engaging product easily and quickly.</p>
+                    </div>
+           
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    
+                 
+                        <div class="services__item">
+                        <div class="services__item__icon">
+                            <img class="sizee" src="{% static 'img/icons/si-3.png' %}" alt="">
+                        </div>
+                        <h4>WEB DEVELOPMENT</h4>
+                        <p>We has been delivering impactful and engaging web products for leading companies across the majority of industries for over years. Leverage our unique and broad-ranging expertise to build a rich-festrong textatured labor management portal, a speedy progressive web app, or even an AR-powered ecommerce store. We deliver comprehensive web development services with clear results and a clear development process.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                
+                    <div class="services__item">
+                        <div class="services__item__icon">
+                            <img class="sizee" src="{% static 'img/icons/si-4.png' %}" alt="">
+                        </div>
+                        <h4>CUSTOM SOFTWARE DEVELOPMENT</h4>
+                        <p>Our expert software developers provide a top-notch custom software development service to the world’s leading enterprises and companies across industries. We offer a matrix structure that ensures redundancy, continuity, and maintenance of the required quality standards in the delivery processes.</p>
+                    </div>
+               
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                
+
+                    <div class="services__item">
+                        <div class="services__item__icon">
+                            <img class="sizee" src="{% static 'img/icons/si-4.png' %}" alt="">
+                        </div>
+                        <h4>IT Consulting</h4>
+                        <p>Use the expertise and deep tech background of the best minds at Intellectsoft to create a comprehensive IT strategy for a digital and technological transformation of your organization that goes in line with your business objectives. Our strategic IT consulting will help you automate and digitalise operations, optimise the software portfolio, and implement the latest technologies.</p>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Call To Action Section Begin -->
+    <section class="callto sp__callto">
+        <div class="container">
+            <div class="callto__services spad set-bg" data-setbg="{% static 'img/calltos-bg.jpg' %}">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <div class="callto__text">
+                            <h2>CREATE AWESOME SOFTWARE WITH WIDEO’S POWERFUL FEATURES</h2>
+                            <p>Wideo combines all the features you need to easily create professional videos and
+                                presentations</p>
+                            <a href="#">Start your stories</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call To Action Section End -->
+
+    <!-- Logo Begin -->
+    <div class="logo spad">
+        <div class="container">
+            <div class="logo__carousel owl-carousel">
+                
+                <a style="color:white;" class="logo__item"> COMMING SOON<!--<img src="{% static 'img/logo/logo-1.png' %}" alt=""> --></a>
+                {% comment %} <a href="#" class="logo__item"><img src="{% static 'img/logo/logo-2.png' %}" alt=""></a>
+                <a href="#" class="logo__item"><img src="{% static 'img/logo/logo-3.png' %}" alt=""></a>
+                <a href="#" class="logo__item"><img src="{% static 'img/logo/logo-4.png' %}" alt=""></a>
+                <a href="#" class="logo__item"><img src="{% static 'img/logo/logo-5.png' %}" alt=""></a>
+                <a href="#" class="logo__item"><img src="{% static 'img/logo/logo-6.png' %}" alt=""></a> {% endcomment %}
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Logo End -->
+    {% endblock Main_Content %}
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/mixitup.min.js' %}"></script>
+    <script src="{% static 'js/masonry.pkgd.min.js' %}"></script>
+    <script src="{% static 'js/jquery.slicknav.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
